@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightFuture Academy</title>
+    <meta
+      name="description"
+      content="BrightFuture Academy offers a modern, student-friendly school website with notices, tests, homework, schedules, and academic resources."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQp1ELKy5nqs5wC1ZpJ8vZ5Hz6B2I/4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo">
+          <span class="logo-mark">B</span>
+          <div>
+            <strong>BrightFuture</strong>
+            <small>Academy</small>
+          </div>
+        </a>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#notice">Notices</a>
+          <a href="#tests">Tests</a>
+          <a href="#homework">Homework</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="nav-toggle" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Nurturing curious minds</p>
+            <h1>Learn, Grow, and Shine with Confidence.</h1>
+            <p class="lead">
+              A vibrant learning community where students build knowledge, creativity,
+              leadership, and lifelong success.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Admission Open</a>
+              <a href="#notice" class="btn btn-secondary">Latest Notices</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>2500+</strong>
+                <span>Students</span>
+              </div>
+              <div>
+                <strong>120+</strong>
+                <span>Teachers</span>
+              </div>
+              <div>
+                <strong>35+</strong>
+                <span>Clubs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="floating-card card-one">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>Academic Excellence</strong>
+                <span>Top school rankings</span>
+              </div>
+            </div>
+
+            <div class="floating-card card-two">
+              <i class="fa-solid fa-calendar-check"></i>
+              <div>
+                <strong>Upcoming Event</strong>
+                <span>Science Expo 2026</span>
+              </div>
+            </div>
+
+            <div class="student-figure">
+              <div class="image-badge">
+                <span>98% Success</span>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                alt="Students learning together"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container feature-grid reveal">
+          <article class="feature-card">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h3>Quality Education</h3>
+            <p>Project-based learning and expert faculty support every learner.</p>
+          </article>
+          <article class="feature-card">
+            <i class="fa-solid fa-flask-vial"></i>
+            <h3>STEM Labs</h3>
+            <p>Hands-on experiments, coding labs, and innovation spaces.</p>
+          </article>
+          <article class="feature-card">
+            <i class="fa-solid fa-people-group"></i>
+            <h3>Student Growth</h3>
+            <p>Sports, arts, leadership, and character development for all.</p>
+          </article>
+          <article class="feature-card">
+            <i class="fa-solid fa-shield-heart"></i>
+            <h3>Safe Campus</h3>
+            <p>Secure environment with wellness programs and guided support.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container two-col">
+          <div class="image-panel reveal">
+            <img
+              src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
+              alt="School campus and students"
+            />
+          </div>
+
+          <div class="content reveal">
+            <p class="section-tag">Our School</p>
+            <h2>Building bright futures through meaningful learning.</h2>
+            <p>
+              BrightFuture Academy blends academic excellence with creativity,
+              communication, and ethics to develop confident students ready for the
+              future.
+            </p>
+
+            <div class="list-points">
+              <div><i class="fa-solid fa-check"></i> Experienced faculty and mentors</div>
+              <div><i class="fa-solid fa-check"></i> Personalized academic guidance</div>
+              <div><i class="fa-solid fa-check"></i> Strong co-curricular opportunities</div>
+              <div><i class="fa-solid fa-check"></i> Digital and practical learning</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent" id="notice">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-tag">Important</p>
+              <h2>School Notices</h2>
+            </div>
+            <a href="#" class="text-link">View all notices</a>
+          </div>
+
+          <div class="notice-grid">
+            <article class="notice-card reveal">
+              <span class="notice-date">10 Oct</span>
+              <h3>Parent-Teacher Meeting</h3>
+              <p>All parents are invited to attend the progress review meeting on Friday at 11:00 AM.</p>
+              <a href="#">Read more</a>
+            </article>
+            <article class="notice-card reveal">
+              <span class="notice-date">12 Oct</span>
+              <h3>Inter-School Debate</h3>
+              <p>Selected students from classes 8-10 will attend trial rounds for the district contest.</p>
+              <a href="#">Read more</a>
+            </article>
+            <article class="notice-card reveal">
+              <span class="notice-date">14 Oct</span>
+              <h3>Science Fair Registration</h3>
+              <p>Students can register their innovative science models before the exhibition deadline.</p>
+              <a href="#">Read more</a>
+            </article>
+            <article class="notice-card reveal">
+              <span class="notice-date">18 Oct</span>
+              <h3>Winter Uniform Update</h3>
+              <p>New winter uniform guidelines will be available from the office and class teachers.</p>
+              <a href="#">Read more</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tests">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-tag">Performance</p>
+              <h2>Test & Exam Section</h2>
+            </div>
+            <a href="#" class="text-link">All assessments</a>
+          </div>
+
+          <div class="test-grid">
+            <article class="exam-card reveal">
+              <div class="exam-top">
+                <span class="exam-type">Unit Test</span>
+                <span class="exam-score">88%</span>
+              </div>
+              <h3>Mathematics</h3>
+              <p>Algebra and Geometry practice exam scheduled for this week.</p>
+              <div class="progress-bar"><span style="width: 88%"></span></div>
+            </article>
+
+            <article class="exam-card reveal">
+              <div class="exam-top">
+                <span class="exam-type">Quiz</span>
+                <span class="exam-score">92%</span>
+              </div>
+              <h3>Science</h3>
+              <p>Short quiz on ecosystems, cells, and environmental changes.</p>
+              <div class="progress-bar"><span style="width: 92%"></span></div>
+            </article>
+
+            <article class="exam-card reveal">
+              <div class="exam-top">
+                <span class="exam-type">Midterm</span>
+                <span class="exam-score">81%</span>
+              </div>
+              <h3>English</h3>
+              <p>Reading comprehension and writing skills evaluation for term test.</p>
+              <div class="progress-bar"><span style="width: 81%"></span></div>
+            </article>
+
+            <article class="exam-card reveal">
+              <div class="exam-top">
+                <span class="exam-type">Final</span>
+                <span class="exam-score">95%</span>
+              </div>
+              <h3>ICT</h3>
+              <p>Practical coding and digital literacy assessment is underway.</p>
+              <div class="progress-bar"><span style="width: 95%"></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent" id="homework">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-tag">Student Tools</p>
+              <h2>Homework & Assignments</h2>
+            </div>
+            <a href="#" class="text-link">Add task</a>
+          </div>
+
+          <div class="homework-wrap">
+            <div class="homework-list reveal">
+              <div class="homework-item">
+                <div class="task-icon science"><i class="fa-solid fa-flask"></i></div>
+                <div class="task-copy">
+                  <h3>Science Project</h3>
+                  <p>Prepare a model on renewable energy sources.</p>
+                </div>
+                <div class="task-meta">
+                  <span>Due: 12 Oct</span>
+                  <strong>Priority</strong>
+                </div>
+              </div>
+
+              <div class="homework-item">
+                <div class="task-icon math"><i class="fa-solid fa-square-root-variable"></i></div>
+                <div class="task-copy">
+                  <h3>Math Worksheet</h3>
+                  <p>Complete chapter 5 algebraic equations and graphs.</p>
+                </div>
+                <div class="task-meta">
+                  <span>Due: 13 Oct</span>
+                  <strong>High</strong>
+                </div>
+              </div>
+
+              <div class="homework-item">
+                <div class="task-icon lang"><i class="fa-solid fa-pen-nib"></i></div>
+                <div class="task-copy">
+                  <h3>English Essay</h3>
+                  <p>Write 400 words on the topic: “Importance of Reading.”</p>
+                </div>
+                <div class="task-meta">
+                  <span>Due: 15 Oct</span>
+                  <strong>Medium</strong>
+                </div>
+              </div>
+            </div>
+
+            <aside class="mini-dashboard reveal">
+              <h3>Today's Focus</h3>
+              <ul>
+                <li><span>01</span> Mathematics Revision</li>
+                <li><span>02</span> Lab Submission</li>
+                <li><span>03</span> Group Reading</li>
+                <li><span>04</span> Sports Club</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="schedule">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-tag">Daily Rhythm</p>
+              <h2>Class Schedule</h2>
+            </div>
+          </div>
+
+          <div class="schedule-table reveal">
+            <table>
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>08:30</td>
+                  <td>Assembly</td>
+                  <td>Math</td>
+                  <td>Science</td>
+                  <td>English</td>
+                  <td>ICT</td>
+                </tr>
+                <tr>
+                  <td>09:30</td>
+                  <td>History</td>
+                  <td>Lab</td>
+                  <td>Math</td>
+                  <td>Art</td>
+                  <td>Sports</td>
+                </tr>
+                <tr>
+                  <td>10:30</td>
+                  <td>Break</td>
+                  <td>Break</td>
+                  <td>Break</td>
+                  <td>Break</td>
+                  <td>Break</td>
+                </tr>
+                <tr>
+                  <td>11:00</td>
+                  <td>English</td>
+                  <td>Geography</td>
+                  <td>Bangla</td>
+                  <td>Math</td>
+                  <td>Music</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent" id="gallery">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="section-tag">Memories</p>
+              <h2>School Gallery</h2>
+            </div>
+            <a href="#" class="text-link">See more</a>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Students in class" /></div>
+            <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80" alt="Students on campus" /></div>
+            <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="School event" /></div>
+            <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80" alt="Education activity" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-info reveal">
+            <p class="section-tag">Get in touch</p>
+            <h2>Join BrightFuture Academy</h2>
+            <p>
+              We welcome students and families who want a dynamic school environment
+              focused on growth, confidence, and excellence.
+            </p>
+
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i> 24 Green Avenue, Education City</li>
+              <li><i class="fa-solid fa-phone"></i> +123 456 7890</li>
+              <li><i class="fa-solid fa-envelope"></i> hello@brightfuture.edu</li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal">
+            <div class="field-row">
+              <input type="text" placeholder="Student Name" />
+              <input type="text" placeholder="Class" />
+            </div>
+            <input type="email" placeholder="Email Address" />
+            <textarea rows="5" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 BrightFuture Academy. All rights reserved.</p>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
